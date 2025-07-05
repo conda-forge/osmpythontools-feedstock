@@ -1,13 +1,13 @@
 {% set name = "OSMPythonTools" %}
-{% set version = "0.3.5" %}
+{% set version = "0.3.6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/OSMPythonTools-{{ version }}.tar.gz
-  sha256: 13ff721f760fdad5dd78b4d1461d286b78bba96ee151a7301ee8c11a0c258be9
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
+  sha256: dc104994148c699606b55243ebd681f378c6b41359f10ba2f5b9f977485f3a00
 
 build:
   noarch: python
